@@ -1,0 +1,22 @@
+{
+  "$schema": "https://open-design.ai/schemas/plugin.v1.json",
+  "specVersion": "1.0.0",
+  "name": "product-design-system-skill-munlxtty",
+  "title": "Product Design System Skill",
+  "version": "0.1.0",
+  "description": "--- name: product-design-system description: 使用 Product 的七色角色、Inter 字体、8px 网格和可访问组件规则构建响应式 Web 产品界面。 user-invocable: true ---",
+  "od": {
+    "kind": "skill",
+    "taskKind": "new-generation",
+    "context": {
+      "skills": [
+        {
+          "path": "./SKILL.md"
+        }
+      ]
+    },
+    "capabilities": [
+      "prompt:inject"
+    ]
+  }
+}
